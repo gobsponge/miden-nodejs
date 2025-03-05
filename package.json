@@ -1,0 +1,25 @@
+{
+  "name": "miden-nodejs",
+  "version": "",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "node build.js"
+  },
+  "keywords": [
+    "miden"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@wasmer/wasi": "^1.2.2",
+    "@wasmer/wasm": "^1.2.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
