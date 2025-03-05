@@ -15,9 +15,6 @@ class MidenClient {
     this.initialized = false;
   }
 
-  /**
-   * @returns {Promise<void>}
-   */
   async initialize() {
     if (this.initialized) {
       return;
